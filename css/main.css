@@ -1,0 +1,56 @@
+body,
+html {
+    font-family: "Mallory MP Light";
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    background: #eee;
+}
+
+strong,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+    font-family: "Mallory Bold";
+    text-transform: uppercase;
+}
+
+label {
+    /* margin-right: 1em; */
+}
+
+.main h1,
+.main h2,
+.main h3,
+.main h4,
+.main h5,
+.main h6 {
+    text-align: center;
+}
+
+.main p {
+    padding: 20px 0;
+    text-align: center;
+}
+
+section {
+    background: white;
+    color: #333;
+    border-radius: 1em;
+    border: 2px #333 solid;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+    padding: 1em;
+    max-width: 75%;
+    max-height: 75%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
